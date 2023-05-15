@@ -68,7 +68,7 @@ function App() {
       <div className="container my-3">
 {/* <Routes> */}
           {/* <Route path="/about" element={<About/>}></Route> */}
-          <About/>
+          
           
           {/* <Route path="/" element={<TextForm showAlert={showAlert} heading = "Analyze Your String" mode = {Mode}/>}> */}
           <TextForm showAlert={showAlert} heading = "Analyze Your String" mode = {Mode}/>
