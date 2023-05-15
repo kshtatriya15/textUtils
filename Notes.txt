@@ -1,0 +1,29 @@
+ command to start a react app is :
+ npm start ( press enter )
+ 
+ If We want to use that app for the production then use this
+ npm run build (press enter)
+
+ / note
+/* 
+  yaha return ke andar jo kooch bhi likha hua hae na wo sari "JSX" hae 
+  return ke baad parenthesis open se lekar parenthesis close tak
+*/
+/* yaha return functions se hum ek hi cheeze return karwa sakte hae 
+ek bar means ek hi tag  
+
+   <h1></>h1>      
+   <div></div> --------------------illegal
+
+
+   <div>
+      <h1></h1>---------------------- legal
+   </div>
+
+
+   <>
+
+   <h1></>h1>      
+   <div></div>-------------------------legal 
+
+   </>

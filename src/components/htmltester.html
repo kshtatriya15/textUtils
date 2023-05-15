@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input value="Try selecting some text in this element." />
+<p id="log"></p>
+
+</body>
+<script>
+    logSelection=(event)=>
+{
+    const log = document.getElementById("log");
+    const selection = event.target.value.substring
+    (
+        event.target.selectionStart,
+        event.target.selectionEnd
+    );
+    log.textContent = `You selected: ${selection}`;
+}
+
+const input = document.querySelector("input");
+input.addEventListener("select", logSelection);
+
+</script>
+</html>
